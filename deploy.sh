@@ -1,3 +1,3 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
-rsync -avz --exclude=".*/" . sophiachou@sophiachou.com:/data/sophiachou-website/current
+rsync -avz --exclude=".*/" . sophiachou-com:/data/sophiachou-website/current
